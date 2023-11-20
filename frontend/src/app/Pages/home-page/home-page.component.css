@@ -1,0 +1,22 @@
+.map-product-section{
+    display: flex;
+    margin: 25px 25px;
+    padding-top: 26px;
+    align-items: center;
+    border-top: 2px solid black;
+    justify-content: space-between;
+}
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+}
+.app-carousel{
+    padding-top: 80px;
+}
+
+/* Media Query */

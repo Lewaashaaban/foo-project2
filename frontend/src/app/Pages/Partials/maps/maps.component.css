@@ -1,0 +1,46 @@
+.maps-main-container{
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    border-radius: 10px;
+    flex-direction: column;
+    border: black solid 2px;
+}
+/* .maps-header{
+    font-weight: 800;
+    font-size: 26px;
+    border-bottom: 2px solid black;
+} */
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.country
+{
+  margin: 8px 10px
+}
+.country:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.selected {
+    font-weight: bold;
+}
+
+/* Media Query */
+/* @media only screen and (max-width: 1300px) {
+    .maps-main-container{
+    padding: 15px 0px;
+    width: 700px !important;
+    }
+} */
+@media only screen and (max-width: 1194px) {
+.map google-map{
+    width: 100px;
+    height: 100px;
+}
+
+} 
+
